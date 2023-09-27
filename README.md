@@ -3,12 +3,12 @@
 湖南工商大学本科毕业设计模板。
 
 # 使用
-推荐使用 [texstudio](https://pan.baidu.com/s/1Is2-VR1z-tMYvmdinsVY_g?pwd=hutb) 或 [overleaf](https://cn.overleaf.com/) 进行编辑。
+推荐使用 [texstudio](https://pan.baidu.com/s/1Is2-VR1z-tMYvmdinsVY_g?pwd=hutb) 或 [overleaf](https://cn.overleaf.com/) 进行论文撰写。
 
-在 latex 2023 中编译成功，latex 2016 编译失败（需要更高的版本，其他版本的 latex 没试过）。
+注：在 latex 2023 中编译成功，latex 2016 编译失败（需要更高的版本，其他版本的 latex 没试过）。
 
 # 贡献
-有任何对模板格式进行调整的可以提交 Pull Request。
+有任何对模板格式进行调整的可以提交 [Issues](https://github.com/OpenHUTB/undergraduate/issues) 或 [Pull Request](https://github.com/OpenHUTB/undergraduate/pulls) 。
 
 # 选题
 
