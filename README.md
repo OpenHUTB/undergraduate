@@ -43,4 +43,20 @@
 2. 运行
 3. 测试（例子通过）
 
+
+## 初始化
+
+1. 新建github工程
+
+2. 运行`init_proj('PROJECT_NAME');`
+
+3. 分配开发者
+
+
+## 使用
+克隆仓库
+```shell
+git clone --recursive https://github.com/OpenHUTB/visualization_assisant.git
+```
+
 # 贡献者
