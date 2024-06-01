@@ -32,7 +32,7 @@
 ## 使用
 克隆仓库
 ```shell
-git clone --recursive https://github.com/OpenHUTB/visualization_assisant.git
+git clone --recursive https://github.com/OpenHUTB/undergraduate.git
 ```
 
 # 贡献者
