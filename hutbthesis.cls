@@ -755,7 +755,7 @@
 		\end{figure}
 		\vspace{0pt}
 		\begingroup
-		\fontsize{45}{50}\selectfont 本科毕业设计(论文) \par
+		\fontsize{45}{50}\selectfont 毕业设计(论文) \par
 		% 45磅，黑体
 		\endgroup
 		\vspace*{6pt}
@@ -778,13 +778,14 @@
 		\zihao{-2} 
 		\songti
 		\begin{tabular}{ll}
-			\hspace{12pt} \makebox[4em][s]{\textbf{题\qquad 目：}} & \underline{\parbox[b][][c]{250pt}{\center \kaishu \@titlecn}} \\
-			\hspace{12pt} \makebox[4em][s]{\textbf{学生姓名：}} & \underline{\makebox[250pt][c]{\kaishu \@author}} \\
-			\hspace{12pt} \makebox[4em][s]{\textbf{学\qquad 号：}} & \underline{\makebox[250pt][c]{\kaishu \@studentid}}  \\
-			\hspace{12pt} \makebox[4em][s]{\textbf{专\qquad 业：}} & \underline{\makebox[250pt][c]{\kaishu \@priormajor}}  \\
-			\hspace{12pt} \makebox[4em][s]{\textbf{班\qquad 级：}} & \underline{\makebox[250pt][c]{\kaishu \@myclass}}  \\
-			\hspace{12pt} \makebox[4em][s]{\textbf{指导老师：}} &  \underline{\makebox[250pt][c]{\kaishu \@supervisor}}  \\
-			%\hspace{12pt} \makebox[4em][s]{学\qquad 院：} & \underline{\makebox[220pt][c]{\kaishu \@department}}  \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{题\qquad 目}} & \underline{\parbox[b][][c]{250pt}{\center \kaishu \@titlecn}} \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{学生姓名}} & \underline{\makebox[250pt][c]{\kaishu \@author}} \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{学\qquad 号}} & \underline{\makebox[250pt][c]{\kaishu \@studentid}}  \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{学\qquad 院}} & \underline{\makebox[250pt][c]{\kaishu \@department}}  \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{专业班级}} & \underline{\makebox[250pt][c]{\kaishu \@priormajor}}  \\
+			% \hspace{12pt} \makebox[4em][s]{\textbf{班\qquad 级}} & \underline{\makebox[250pt][c]{\kaishu \@myclass}}  \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{指导老师}} &  \underline{\makebox[250pt][c]{\kaishu \@supervisor}}  \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{职\qquad 称}} &  \underline{\makebox[250pt][c]{\kaishu \@title}}  \\
 			
 		\end{tabular}
 		\endgroup
@@ -792,7 +793,7 @@
 		\vspace{40pt}
 		% \vfill
 		\begingroup
-		{\zihao{2} \heiti 计算机学院 \par}
+		% {\zihao{2} \heiti 人工智能与先进计算学院 \par}
 		\vspace{10pt}
 		{\zihao{-2} \heiti \@thesisdate \par}
 		\endgroup
