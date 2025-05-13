@@ -599,6 +599,7 @@
 \newcommand*{\schoolcode}[1]{\gdef\@schoolcode{#1}}                     % 学校代码
 \newcommand*{\udc}[1]{\gdef\@udc{#1}}                                   % UDC
 \newcommand*{\academiccategory}[1]{\gdef\@academiccategory{#1}}         % 学术类别
+\newcommand*{\headertitle}[1]{\gdef\@headertitle{#1}}                   % 页眉字符串
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 页面布局
@@ -627,7 +628,7 @@
 % UPDATE 更新配置为论文标题
 % 清空页眉，具体设置规则参考：https://www.overleaf.com/learn/latex/Headers_and_footers
 \fancyhf{}%
-\fancyhf[HC]{\heiti \zihao{-5} {\@titlecn}}
+\fancyhf[HC]{\heiti \zihao{-5} {\@headertitle}}
 % frontmatter设置
 \renewcommand{\frontmatter}{
 	\cleardoublepage
