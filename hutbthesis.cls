@@ -770,12 +770,11 @@
 		% 1号，黑体
 		\endgroup
 		\begin{figure}[hbt]
-			\centering
-			\vspace{55pt} % 空行
+			\noindent
 			\ifhutb@type@print
-			%\includegraphics[width=0.2\textwidth]{hutb_logo.png}
+			\includegraphics[width=0.7\textwidth]{hutb_and_log.png}
 			\else
-			%\includegraphics[width=0.2\textwidth]{hutb_logo.png}
+			\includegraphics[width=0.7\textwidth]{hutb_and_log.png}
 			\fi
 		\end{figure}
 		\vspace{10pt} % 空行
