@@ -35,4 +35,48 @@
 git clone --recursive https://github.com/OpenHUTB/undergraduate.git
 ```
 
+## 修改方法
+
+### 添加新的一页
+
+以添加“授权使用说明书”为例：
+
+1.添加内容文件`content/authorizationzh.tex`
+
+2.在模板文件中`hutbthesis.cls`添加：
+```latex
+% 预定义名称
+\newcommand*{\hutb@name@authorization@zh}{声明}
+```
+```latex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 诚信声明
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{authorizationzh} {
+	%\begin{titlepage}%
+	\hutb@pdfbookmark{0}{\hutb@name@authorization@zh}
+	%\renewcommand*{\headsep}{20pt}
+	\vspace*{0pt}
+	%	\begin{center} \zihao{-2} \heiti \@titlecn \end{center}
+	\vspace{0pt}
+	\begin{center} \zihao{2} \heiti 湖南工商大学本科毕业设计版权使用授权书 \end{center}  % 摘要为三号黑体
+	\vspace{12pt}
+	\linespread{1.5}
+	\zihao{4}\songti  % 内容为四号宋体
+
+	%\end{titlepage}%
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+
+3.在主文件`hutbthesis_main.tex`中引入
+```latex
+\include{content/authorizationzh}
+```
+
 # 贡献者
