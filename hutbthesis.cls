@@ -619,13 +619,15 @@
 \patchcmd{\chapter}{\thispagestyle}{\@gobble}{}{}
 % 内芯页眉设置
 \ifhutb@type@print
-\fancyhead[L]{\includegraphics[scale=0.10]{hutb_logo_maoti.png}}
+%\fancyhead[L]{\includegraphics[scale=0.10]{hutb_logo_maoti.png}}
 \else
-\fancyhead[L]{\includegraphics[scale=0.10]{hutb_logo_maoti.png}}
+%\fancyhead[L]{\includegraphics[scale=0.10]{hutb_logo_maoti.png}}
 \fi
 % \fancyhf[RH]{\heiti \zihao{-5} {图像与激光融合的轨道扣件脱落检测}} % 设置所有（奇数和偶数）右侧页眉
 % UPDATE 更新配置为论文标题
-\fancyhf[RH]{\heiti \zihao{-5} {\@titlecn}}
+% 清空页眉，具体设置规则参考：https://www.overleaf.com/learn/latex/Headers_and_footers
+\fancyhf{}%
+\fancyhf[HC]{\heiti \zihao{-5} {\@titlecn}}
 % frontmatter设置
 \renewcommand{\frontmatter}{
 	\cleardoublepage
