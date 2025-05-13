@@ -749,15 +749,15 @@
 		\begin{figure}[hbt]
 			\centering
 			\ifhutb@type@print
-			\includegraphics[width=0.6\textwidth]{hutb_logo_maoti.png}
+			\includegraphics[width=0.7\textwidth]{hutb_and_log.png}
 			\else
-			\includegraphics[width=0.6\textwidth]{hutb_logo_maoti.png}
+			\includegraphics[width=0.7\textwidth]{hutb_and_log.png}
 			\fi
 		\end{figure}
-		\vspace{0pt}
+		\vspace{40pt}
 		\begingroup
 		% 做系统的用“毕业设计”，做算法的用毕业论文
-		\fontsize{45}{50}\selectfont 毕业设计(论文) \par
+		\fontsize{50.0}{50}\selectfont 毕业设计(论文) \par
 		% 45磅，黑体
 		\endgroup
 		\vspace*{6pt}
@@ -768,10 +768,11 @@
 		\endgroup
 		\begin{figure}[hbt]
 			\centering
+			\vspace{55pt} % 空行
 			\ifhutb@type@print
-			\includegraphics[width=0.2\textwidth]{hutb_logo.png}
+			%\includegraphics[width=0.2\textwidth]{hutb_logo.png}
 			\else
-			\includegraphics[width=0.2\textwidth]{hutb_logo.png}
+			%\includegraphics[width=0.2\textwidth]{hutb_logo.png}
 			\fi
 		\end{figure}
 		\vspace{10pt} % 空行
