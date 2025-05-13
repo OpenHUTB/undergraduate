@@ -750,7 +750,7 @@
 	\begin{center}
 		\vspace*{0pt}
 		\begin{figure}[hbt]
-			\centering
+			\noindent
 			\ifhutb@type@print
 			\includegraphics[width=0.7\textwidth]{hutb_and_log.png}
 			\else
@@ -790,7 +790,7 @@
 			\hspace{12pt} \makebox[4em][s]{\textbf{学\qquad 院}} & \underline{\makebox[250pt][c]{\kaishu \@department}}  \\
 			\hspace{12pt} \makebox[4em][s]{\textbf{专业班级}} & \underline{\makebox[250pt][c]{\kaishu \@priormajor}}  \\
 			% \hspace{12pt} \makebox[4em][s]{\textbf{班\qquad 级}} & \underline{\makebox[250pt][c]{\kaishu \@myclass}}  \\
-			\hspace{12pt} \makebox[4em][s]{\textbf{指导老师}} &  \underline{\makebox[250pt][c]{\kaishu \@supervisor}}  \\
+			\hspace{12pt} \makebox[4em][s]{\textbf{指导教师}} &  \underline{\makebox[250pt][c]{\kaishu \@supervisor}}  \\
 			\hspace{12pt} \makebox[4em][s]{\textbf{职\qquad 称}} &  \underline{\makebox[250pt][c]{\kaishu \@title}}  \\
 			
 		\end{tabular}
