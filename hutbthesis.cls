@@ -696,6 +696,7 @@
 % 预定义名称
 \newcommand*{\hutb@name@cover}{扉页}
 \newcommand*{\hutb@name@declaration@zh}{声明}
+\newcommand*{\hutb@name@authorization@zh}{声明}
 \newcommand*{\hutb@name@abstract@zh}{中文摘要}
 \newcommand*{\hutb@name@abstract@en}{英文摘要}
 \newcommand*{\hutb@name@keywords}{关键字}
@@ -755,6 +756,7 @@
 		\end{figure}
 		\vspace{0pt}
 		\begingroup
+		% 做系统的用“毕业设计”，做算法的用毕业论文
 		\fontsize{45}{50}\selectfont 毕业设计(论文) \par
 		% 45磅，黑体
 		\endgroup
@@ -821,6 +823,29 @@
 	%\end{titlepage}%
 	
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 诚信声明
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{authorizationzh} {
+	%\begin{titlepage}%
+	\hutb@pdfbookmark{0}{\hutb@name@authorization@zh}
+	%\renewcommand*{\headsep}{20pt}
+	\vspace*{0pt}
+	%	\begin{center} \zihao{-2} \heiti \@titlecn \end{center}
+	\vspace{0pt}
+	\begin{center} \zihao{2} \heiti 湖南工商大学本科毕业设计\\版权使用授权书 \end{center}  % 摘要为三号黑体
+	\vspace{12pt}
+	\linespread{1.5}
+	\zihao{4}\songti  % 内容为四号宋体
+
+	%\end{titlepage}%
+
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 摘要
