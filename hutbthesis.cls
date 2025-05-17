@@ -1137,8 +1137,9 @@ chapter = {%
 	afterskip    = {40pt},
 	% afterskip    = {\ifhutb@type@graduate 30pt\else 20pt\fi},
 },
+% 二级标题
 section = {%
-	format       = \zihao{-4} \heiti,
+	format       = \zihao{-4} \bfseries \songti,
 	afterindent  = true,
 	% beforeskip 默认为 3.5ex plus 1ex minus .2ex 适当缩减
 	% beforeskip   = {20pt},
@@ -1146,15 +1147,17 @@ section = {%
 	% afterskip 默认为 2.3ex plus .2ex 适当缩减
 	afterskip    = {1ex \@plus .2ex},
 },
+% 三级标题
 subsection = {%
-	format       = \zihao{-4} \bfseries \songti,
+	format       = \zihao{-4} \songti,
 	afterindent  = true,
 	% afterskip 默认为 2.3ex plus .2ex 适当缩减
 	afterskip    = {1ex \@plus .2ex},
 	%fixskip      = true,
 },
+% 四级标题
 subsubsection = {%
-	format       = \zihao{-4} \normalfont,
+	format       = \zihao{-4} \songti,
 	afterindent  = true,
 	afterskip    = {1ex \@plus .2ex},
 	%fixskip      = true,
