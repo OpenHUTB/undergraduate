@@ -750,7 +750,8 @@
 	\begin{center}
 		\vspace*{0pt}
 		\begin{figure}[hbt]
-			\noindent
+			% \noindent 表示logo靠左对齐j
+			\centering  % logo居中对齐
 			\ifhutb@type@print
 			\includegraphics[width=0.7\textwidth]{hutb_and_log.png}
 			\else
@@ -783,7 +784,7 @@
 		\linespread{1.3}
 		\zihao{-2} 
 		\songti
-		\begin{tabular}{ll}
+		\begin{tabular}{ll} % 实线是 \underline
 			\hspace{12pt} \makebox[4em][s]{\textbf{题\qquad 目}} & \underline{\parbox[b][][c]{250pt}{\center \kaishu \@titlecn}} \\
 			\hspace{12pt} \makebox[4em][s]{\textbf{学生姓名}} & \underline{\makebox[250pt][c]{\kaishu \@author}} \\
 			\hspace{12pt} \makebox[4em][s]{\textbf{学\qquad 号}} & \underline{\makebox[250pt][c]{\kaishu \@studentid}}  \\
