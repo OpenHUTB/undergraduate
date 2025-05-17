@@ -1140,7 +1140,7 @@ chapter = {%
 },
 % 二级标题
 section = {%
-	format       = \zihao{-4} \bfseries \songti,
+	format       = \zihao{4} \bfseries \songti,
 	afterindent  = true,
 	% beforeskip 默认为 3.5ex plus 1ex minus .2ex 适当缩减
 	% beforeskip   = {20pt},
