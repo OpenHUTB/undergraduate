@@ -1132,7 +1132,7 @@ chapter = {%
 	% 居中 \centering
 	format       = \zihao{3} \heiti,
 	% {第, 章}
-	name         = {},
+	name         = {,.},
 	nameformat   = {},
 	number       = \arabic{chapter},
 	numberformat = {},
