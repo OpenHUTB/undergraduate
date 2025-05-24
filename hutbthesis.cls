@@ -718,6 +718,13 @@
 	% \textsuperscript{\cite[#1]{#2}}}
 
 
+% 定义命令：参数1=颜色，参数2=实线长度，参数3=空白长度
+\newcommand{\adjustabledashunderline}[4][black]{%
+	\tikz[baseline=(text.base)]{%
+		\node[inner sep=0pt, outer sep=0pt] (text) {#4};
+		\draw[color=#1, dash pattern=on #2 off #3] (text.south west) -- (text.south east);
+	}%
+}
 
 
 
@@ -784,7 +791,7 @@
 		\linespread{1.3}
 		\zihao{-2} 
 		\songti
-		\begin{tabular}{ll} % 实线是 \underline
+		\begin{tabular}{ll} % 实线是 \underline；虚线的 \hdashrule
 			\hspace{12pt} \makebox[4em][s]{\textbf{题\qquad 目}} & \underline{\parbox[b][][c]{250pt}{\center \kaishu \@titlecn}} \\
 			\hspace{12pt} \makebox[4em][s]{\textbf{学生姓名}} & \underline{\makebox[250pt][c]{\kaishu \@author}} \\
 			\hspace{12pt} \makebox[4em][s]{\textbf{学\qquad 号}} & \underline{\makebox[250pt][c]{\kaishu \@studentid}}  \\
@@ -1122,8 +1129,10 @@ labelwidth=2em % 包含标签的盒子的正常宽度；若实际宽度更宽，
 % 各级标题格式设置。
 \ctexset{%
 chapter = {%
-	format       = \zihao{3} \heiti\centering,
-	name         = {第, 章},
+	% 居中 \centering
+	format       = \zihao{3} \heiti,
+	% {第, 章}
+	name         = {},
 	nameformat   = {},
 	number       = \arabic{chapter},
 	numberformat = {},
