@@ -79,4 +79,3 @@ git clone --recursive https://github.com/OpenHUTB/undergraduate.git
 \include{content/authorizationzh}
 ```
 
-# 贡献者
